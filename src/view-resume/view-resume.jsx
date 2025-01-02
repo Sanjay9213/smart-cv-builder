@@ -1,10 +1,10 @@
 import Header from '@/components/custom/header'
 import { Button } from '@/components/ui/button'
 import { ResumeInfoContext } from "@/context/resume-info-context";
-import ResumePreview from '../../../dashboard/components/edit-resume/resume-preview'
+import ResumePreview from '../dashboard/components/edit-resume/resume-preview'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import GlobalApi from '../../../../service/GlobalApi'
+import GlobalApi from '../../service/GlobalApi'
 import { RWebShare } from 'react-web-share'
 
 function ViewResume() {

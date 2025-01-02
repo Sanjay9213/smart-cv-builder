@@ -8,7 +8,7 @@ import Home from './home'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import EditResume from './dashboard/components/edit-resume'
-import ViewResume from './my-resume/[resumeId] /view'
+import ViewResume from './view-resume/view-resume'
 
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
